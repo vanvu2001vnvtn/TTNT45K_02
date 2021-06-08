@@ -1,0 +1,15 @@
+C:\Users\ADMIN\Documents\TTNT45K_02\VanVu\Calculator1\Calculator1\bin\Debug\netcoreapp3.1\Calculator1.exe
+C:\Users\ADMIN\Documents\TTNT45K_02\VanVu\Calculator1\Calculator1\bin\Debug\netcoreapp3.1\Calculator1.deps.json
+C:\Users\ADMIN\Documents\TTNT45K_02\VanVu\Calculator1\Calculator1\bin\Debug\netcoreapp3.1\Calculator1.runtimeconfig.json
+C:\Users\ADMIN\Documents\TTNT45K_02\VanVu\Calculator1\Calculator1\bin\Debug\netcoreapp3.1\Calculator1.runtimeconfig.dev.json
+C:\Users\ADMIN\Documents\TTNT45K_02\VanVu\Calculator1\Calculator1\bin\Debug\netcoreapp3.1\Calculator1.dll
+C:\Users\ADMIN\Documents\TTNT45K_02\VanVu\Calculator1\Calculator1\bin\Debug\netcoreapp3.1\Calculator1.pdb
+C:\Users\ADMIN\Documents\TTNT45K_02\VanVu\Calculator1\Calculator1\obj\Debug\netcoreapp3.1\Calculator1.csprojAssemblyReference.cache
+C:\Users\ADMIN\Documents\TTNT45K_02\VanVu\Calculator1\Calculator1\obj\Debug\netcoreapp3.1\Calculator1.Form1.resources
+C:\Users\ADMIN\Documents\TTNT45K_02\VanVu\Calculator1\Calculator1\obj\Debug\netcoreapp3.1\Calculator1.csproj.GenerateResource.cache
+C:\Users\ADMIN\Documents\TTNT45K_02\VanVu\Calculator1\Calculator1\obj\Debug\netcoreapp3.1\Calculator1.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Documents\TTNT45K_02\VanVu\Calculator1\Calculator1\obj\Debug\netcoreapp3.1\Calculator1.AssemblyInfo.cs
+C:\Users\ADMIN\Documents\TTNT45K_02\VanVu\Calculator1\Calculator1\obj\Debug\netcoreapp3.1\Calculator1.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Documents\TTNT45K_02\VanVu\Calculator1\Calculator1\obj\Debug\netcoreapp3.1\Calculator1.dll
+C:\Users\ADMIN\Documents\TTNT45K_02\VanVu\Calculator1\Calculator1\obj\Debug\netcoreapp3.1\Calculator1.pdb
+C:\Users\ADMIN\Documents\TTNT45K_02\VanVu\Calculator1\Calculator1\obj\Debug\netcoreapp3.1\Calculator1.genruntimeconfig.cache
