@@ -56,6 +56,12 @@ namespace MYCALCULATOR_NQ
             decimal dSo1 = Convert.ToDecimal(sSo1);
             string sSo2 = txtSo2.Text;
             decimal dSo2 = Convert.ToDecimal(sSo2);
+            if(dSo2==0)
+            {
+                MessageBox.Show("Vui lòng nhập lại số thứ 2 khác 0", "Thông báo");
+                return;
+            }
+                
             decimal dKQ = dSo1 / dSo2;
             txtKQ.Text = dKQ.ToString();
 

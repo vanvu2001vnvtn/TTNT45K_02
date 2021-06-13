@@ -117,7 +117,7 @@
             // 
             this.txtKQ.BackColor = System.Drawing.Color.LavenderBlush;
             this.txtKQ.ForeColor = System.Drawing.Color.Tomato;
-            this.txtKQ.Location = new System.Drawing.Point(102, 227);
+            this.txtKQ.Location = new System.Drawing.Point(98, 245);
             this.txtKQ.Name = "txtKQ";
             this.txtKQ.Size = new System.Drawing.Size(100, 20);
             this.txtKQ.TabIndex = 7;
@@ -129,7 +129,7 @@
             this.BackColor = System.Drawing.Color.LavenderBlush;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(300, 287);
+            this.ClientSize = new System.Drawing.Size(309, 307);
             this.Controls.Add(this.txtKQ);
             this.Controls.Add(this.txtSo2);
             this.Controls.Add(this.txtSo1);
@@ -142,6 +142,7 @@
             this.ForeColor = System.Drawing.Color.SteelBlue;
             this.MaximizeBox = false;
             this.Name = "frmCalculation";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "My Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
