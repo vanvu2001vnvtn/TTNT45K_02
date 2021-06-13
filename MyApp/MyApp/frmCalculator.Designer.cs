@@ -39,6 +39,7 @@
             this.btnTru = new System.Windows.Forms.Button();
             this.btnNhan = new System.Windows.Forms.Button();
             this.btnChia = new System.Windows.Forms.Button();
+            this.btnXoa = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtSo1
@@ -46,7 +47,7 @@
             this.txtSo1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtSo1.Location = new System.Drawing.Point(26, 60);
             this.txtSo1.Name = "txtSo1";
-            this.txtSo1.Size = new System.Drawing.Size(125, 24);
+            this.txtSo1.Size = new System.Drawing.Size(120, 24);
             this.txtSo1.TabIndex = 0;
             // 
             // txtSo2
@@ -61,7 +62,7 @@
             // 
             this.txtKQ.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtKQ.ForeColor = System.Drawing.Color.OrangeRed;
-            this.txtKQ.Location = new System.Drawing.Point(343, 60);
+            this.txtKQ.Location = new System.Drawing.Point(343, 59);
             this.txtKQ.Name = "txtKQ";
             this.txtKQ.Size = new System.Drawing.Size(125, 27);
             this.txtKQ.TabIndex = 6;
@@ -71,7 +72,7 @@
             // 
             this.btnCong.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnCong.ForeColor = System.Drawing.Color.Tomato;
-            this.btnCong.Location = new System.Drawing.Point(119, 121);
+            this.btnCong.Location = new System.Drawing.Point(43, 121);
             this.btnCong.Name = "btnCong";
             this.btnCong.Size = new System.Drawing.Size(83, 45);
             this.btnCong.TabIndex = 2;
@@ -81,7 +82,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(291, 121);
+            this.button2.Location = new System.Drawing.Point(215, 121);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(0, 0);
             this.button2.TabIndex = 1;
@@ -90,7 +91,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(129, 198);
+            this.button3.Location = new System.Drawing.Point(53, 198);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(0, 0);
             this.button3.TabIndex = 1;
@@ -99,7 +100,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(291, 198);
+            this.button4.Location = new System.Drawing.Point(215, 198);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(0, 0);
             this.button4.TabIndex = 1;
@@ -110,7 +111,7 @@
             // 
             this.btnTru.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnTru.ForeColor = System.Drawing.Color.Tomato;
-            this.btnTru.Location = new System.Drawing.Point(282, 121);
+            this.btnTru.Location = new System.Drawing.Point(206, 121);
             this.btnTru.Name = "btnTru";
             this.btnTru.Size = new System.Drawing.Size(83, 45);
             this.btnTru.TabIndex = 3;
@@ -122,7 +123,7 @@
             // 
             this.btnNhan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnNhan.ForeColor = System.Drawing.Color.Tomato;
-            this.btnNhan.Location = new System.Drawing.Point(119, 233);
+            this.btnNhan.Location = new System.Drawing.Point(43, 233);
             this.btnNhan.Name = "btnNhan";
             this.btnNhan.Size = new System.Drawing.Size(83, 45);
             this.btnNhan.TabIndex = 4;
@@ -134,13 +135,25 @@
             // 
             this.btnChia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnChia.ForeColor = System.Drawing.Color.Tomato;
-            this.btnChia.Location = new System.Drawing.Point(282, 233);
+            this.btnChia.Location = new System.Drawing.Point(206, 233);
             this.btnChia.Name = "btnChia";
             this.btnChia.Size = new System.Drawing.Size(83, 45);
             this.btnChia.TabIndex = 5;
             this.btnChia.Text = "Chia";
             this.btnChia.UseVisualStyleBackColor = true;
             this.btnChia.Click += new System.EventHandler(this.btnChia_Click);
+            // 
+            // btnXoa
+            // 
+            this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnXoa.ForeColor = System.Drawing.Color.Tomato;
+            this.btnXoa.Location = new System.Drawing.Point(368, 169);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(75, 53);
+            this.btnXoa.TabIndex = 7;
+            this.btnXoa.Text = "AC";
+            this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // frmCalculator
             // 
@@ -149,6 +162,7 @@
             this.BackColor = System.Drawing.Color.PapayaWhip;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(505, 326);
+            this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button3);
@@ -183,6 +197,7 @@
         private System.Windows.Forms.Button btnTru;
         private System.Windows.Forms.Button btnNhan;
         private System.Windows.Forms.Button btnChia;
+        private System.Windows.Forms.Button btnXoa;
     }
 }
 

@@ -72,5 +72,12 @@ namespace MyApp
 
             txtKQ.Text = dKQ.ToString();
         }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            txtSo1.Text = "";
+            txtSo2.Text = "";
+            txtKQ.Text = "";
+        }
     }
 }
