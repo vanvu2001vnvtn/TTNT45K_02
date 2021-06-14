@@ -33,9 +33,9 @@ namespace Quản_lý_Đơn_may_mặc
 
         private void thốngKêĐơnĐặtMayToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmHDChiTiet HDChiTiet = new frmHDChiTiet();
-            HDChiTiet.MdiParent = this;
-            HDChiTiet.Show();
+            frmThongKe ThongKe = new frmThongKe();
+            ThongKe.MdiParent = this;
+            ThongKe.Show();
         }
     }
 }
