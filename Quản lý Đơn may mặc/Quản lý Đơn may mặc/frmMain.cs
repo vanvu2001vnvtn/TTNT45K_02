@@ -37,5 +37,54 @@ namespace Quản_lý_Đơn_may_mặc
             ThongKe.MdiParent = this;
             ThongKe.Show();
         }
+
+        private void SuaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmHoaDon HD = new frmHoaDon();
+            HD.MdiParent = this;
+            HD.Show();
+        }
+
+        private void XoaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmHoaDon HD = new frmHoaDon();
+            HD.MdiParent = this;
+            HD.Show();
+        }
+
+        private void TimKiemToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmHoaDon HD = new frmHoaDon();
+            HD.MdiParent = this;
+            HD.Show();
+        }
+
+        private void hiểnThịToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmHoaDon HD = new frmHoaDon();
+            HD.MdiParent = this;
+            HD.Show();
+        }
+
+        private void SuaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmKhachHang Khach = new frmKhachHang();
+            Khach.MdiParent = this;
+            Khach.Show();
+        }
+
+        private void XoaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmKhachHang Khach = new frmKhachHang();
+            Khach.MdiParent = this;
+            Khach.Show();
+        }
+
+        private void HienThiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmKhachHang Khach = new frmKhachHang();
+            Khach.MdiParent = this;
+            Khach.Show();
+        }
     }
 }
